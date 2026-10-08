@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Interactive Photo Gallery</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Interactive Photo Gallery</h1>
+    </header>
+
+    <main>
+
+        <div id="image">
+            Hover over an image below to display here.
+        </div>
+
+        <div class="gallery">
+
+            <img class="preview" src="image1.jpg" alt="Beautiful landscape" onmouseover="upDate(this)"
+                onmouseleave="unDo()">
+
+            <img class="preview" src="image2.jpg" alt="Beautiful city" onmouseover="upDate(this)" onmouseleave="unDo()">
+
+            <img class="preview" src="image3.jpg" alt="Beautiful nature" onmouseover="upDate(this)"
+                onmouseleave="unDo()">
+
+            <img class="preview" src="image4.jpg" alt="Beautiful sunset" onmouseover="upDate(this)"
+                onmouseleave="unDo()">
+
+            <img class="preview" src="image5.jpg" alt="Travel destination" onmouseover="upDate(this)"
+                onmouseleave="unDo()">
+
+            <img class="preview" src="image6.jpg" alt="My favorite place" onmouseover="upDate(this)"
+                onmouseleave="unDo()">
+
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
